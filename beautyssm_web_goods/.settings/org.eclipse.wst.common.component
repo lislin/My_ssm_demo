@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="beautyssm_web_goods-1.0.0">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="beautyssm_api_goods-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beautyssm_api_goods/beautyssm_api_goods">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beautyssm_common-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beautyssm_common/beautyssm_common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beautyssm_distributed_tools-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beautyssm_distributed_tools/beautyssm_distributed_tools">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="beautyssm_api_user-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/beautyssm_api_user/beautyssm_api_user">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="beautyssm_web_goods"/>
+        <property name="java-output-path" value="/beautyssm_web_goods/target/classes"/>
+    </wb-module>
+</project-modules>
